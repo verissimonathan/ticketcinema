@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="icon" href="assets/img/ticket.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TicketStore</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__img">
+            <img src="assets/img/ticket.svg" alt="tickets">
+        </div>
+
+        <nav class="cabecalho__menu">
+            <ul class="menu__lista">
+                <li class="menu__item">Home</li>
+                <li class="menu__item active">Your tickets</li>
+                <li class="menu__item">Profile</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container__ticket">
+        <div class="ticket">
+            <div class="ticket__img">
+                <img src="assets/img/elvis.svg" alt="">
+            </div>
+
+            <div class="ticket__descricao">
+                <div class="ticket__infos">
+                    <h2 class="ticket__titulo">Elvis</h2>
+
+                    <div class="ticket__infos-item">
+                        <img src="assets/img/Place.svg" alt="Place">
+                        <p>Room 4 - Cinemark</p>
+                    </div>
+                    
+                    <div class="ticket__infos-item">
+                        <img src="assets/img/Date.svg" alt="Date">
+                        <p>08/24/22</p>
+                    </div>
+                    
+                    <div class="infos__flex">
+                        <div class="ticket__infos-item">
+                            <img src="assets/img/time.svg" alt="Time">
+                            <p>8:00 PM</p>
+                        </div>
+                        
+                        <div class="ticket__infos-item chair">
+                            <img src="assets/img/chair.svg" alt="Chair">
+                            <p>M08, M09</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="ticket__actions">
+                <div class="ticket__qrcode">
+                    <img src="assets/img/qrcode.svg" alt="qr code">
+                </div>
+
+                <div class="ticket__botoes">
+                    <a href="#" class="ticket__botao--fill">Change date</a>
+                    <a href="#" class="ticket__botao--outline">Cancel ticket</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ticket__download">
+            <a href="#" class="download__botao">
+                <img src="assets/img/download.svg" alt="download" class="download__icon">
+                Download ticket
+            </a>
+        </div>
+    </section>
+</body>
+</html>

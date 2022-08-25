@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: #FFD2DA;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__img {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 152px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #474747;
+}
+
+.active {
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #474747;
+}
+
+
+.container__ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket {
+    margin-top: 32px;
+    width: 342px;
+    height: 438px;
+    background-color: #1e1e1e;
+    border-radius: 24px;
+}
+
+.ticket__img {
+    margin: 16px 16px 32px 16px
+}
+
+.ticket__descricao {
+    color: #f7f7f7;
+    margin-left: 16px;
+}
+
+.ticket__titulo {
+    font-size: 24;
+    font-weight: 700;
+    margin-bottom: 16px
+}
+
+.ticket__infos-item {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.ticket__infos-item img {
+    margin-right: 8px;
+}
+
+.infos__flex {
+    display: flex;
+}
+
+.chair {
+    margin-left: 32px;
+}
+
+.ticket__actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 16px 16px 16px;
+}
+
+.ticket__img {
+    height: 108px;
+    width: 108px;
+}
+
+.ticket__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ticket__botao--fill,
+.ticket__botao--outline {
+    text-decoration: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.ticket__botao--fill {
+    background-color: #f7f7f7;
+    color: #1e1e1e;
+}
+
+.ticket__botao--outline {
+    border: 1px solid #f7f7f7;
+    color: #f7f7f7;
+    margin-top: 8px;
+}
+
+.ticket__download {
+    margin-top: 8px;
+    background-color: #1e1e1e;
+    width: 342px;
+    border-radius: 16px;
+}
+
+.download__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.download__icon {
+    margin-right: 16px;
+}
